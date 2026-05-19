@@ -2,13 +2,19 @@
 
 #include <stdio.h>
 
-void print_N(int i, int N)
+void print_N(int N)
 {
-    if (i > N)
+    if (N == 0){
         return;
-    printf("%d\n", i);
+    }
 
-    print_N(i + 1, N);
+    printf("%d", N);
+
+    if (N != 1){
+        printf(" ");
+    }
+
+    print_N(N - 1);
 }
 
 int main()
@@ -17,7 +23,7 @@ int main()
 
     scanf("%d", &N);
 
-    print_N(1, N);
+    print_N(N);
 
     return 0;
 }
