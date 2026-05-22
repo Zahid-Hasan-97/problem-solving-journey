@@ -26,4 +26,4 @@ int main(){
     array(arr, n, 0);
 
     return 0;
-}
+} 

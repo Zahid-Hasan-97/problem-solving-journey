@@ -10,7 +10,7 @@ int main()
 
     scanf("%d %lld %c %f %lf", &a, &b, &c, &d, &e);
 
-    printf("%d\n%lld\n%c\n%.2f\n%.1lf", a, b, c, d, e);
+    printf("%d\n%lld\n%c\n%g\n%g", a, b, c, d, e);
 
     return 0;
 }
