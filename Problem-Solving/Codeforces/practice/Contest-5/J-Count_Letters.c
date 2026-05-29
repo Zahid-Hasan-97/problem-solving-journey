@@ -3,9 +3,7 @@
 int main()
 {
     char s[10000001];
-
     scanf("%s", s);
-
     int count[26] = {0};
 
     for (int i = 0; s[i] != '\0'; i++)
