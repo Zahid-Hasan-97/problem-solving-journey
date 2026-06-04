@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    char s[100];
+    char s[100]; // Built in string function -- string s;
 
     // cin.ignore();
 
