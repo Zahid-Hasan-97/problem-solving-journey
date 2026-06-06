@@ -10,9 +10,9 @@ public:
 
     student(int roll, int cls, double gpa)
     {
-        this->.roll = roll;
-        this->.cls = cls;
-        this->.gpa = gpa;
+        this->roll = roll;
+        this->cls = cls;
+        this->gpa = gpa;
     }
 };
 

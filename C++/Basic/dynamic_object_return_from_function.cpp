@@ -16,14 +16,17 @@ public:
     }
 };
 
+student* fun()
+{
+    student* karim = new student(2, 5, 5.00);
+
+    return karim;
+}
+
 int main()
 {
-    student rahim(45, 5, 3.2);
-
-    student*karim = new student (10,5,4.56);
-
-    cout << rahim.roll << " " << rahim.cls << " " << rahim.gpa << endl;
-    cout << karim->roll << " " << karim->cls << " " << karim->gpa << endl;
+    student* p =  fun();
+    cout << p->roll << " " << p->cls << " " << p->gpa << endl;
 
     return 0;
 }
