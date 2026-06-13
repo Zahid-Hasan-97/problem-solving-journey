@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    string s = "Hello world bla bla bla bla nla la";
+
+
+    cout << s,capacity() << endl;
+
+
+    return 0;
+}
